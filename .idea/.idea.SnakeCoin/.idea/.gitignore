@@ -1,0 +1,11 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/.idea.SnakeCoin.iml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\Vlad Boroda\Documents\UnityProjects\SnakeCoin\.idea\.idea.SnakeCoin\.idea/dataSources/
+/dataSources.local.xml

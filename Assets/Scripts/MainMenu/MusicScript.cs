@@ -16,7 +16,7 @@ namespace MainMenu
         // Start is called before the first frame update
         void Start()
         {
-            _sound = GameObject.FindObjectOfType<Sound>();
+            _sound = FindObjectOfType<Sound>();
             UpdateMusicIconAndVolume();
         }
     
@@ -30,13 +30,11 @@ namespace MainMenu
         {
             if (PlayerPrefs.GetInt("MusicMuted", 0) == 0)
             {
-                // AudioListener.volume = 1;
                 audioMixer.SetFloat("Music", -0f);
                 musicToggleButton.GetComponent<Image>().sprite = musicOnSprite;
             }
             else
             {
-                // AudioListener.volume = 0;
                 audioMixer.SetFloat("Music", -80f);
                 musicToggleButton.GetComponent<Image>().sprite = musicOffSprite;
             }

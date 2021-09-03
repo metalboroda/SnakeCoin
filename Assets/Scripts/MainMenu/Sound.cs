@@ -24,12 +24,10 @@ namespace MainMenu
             if (PlayerPrefs.GetInt("MusicMuted", 0) == 0)
             {
                 PlayerPrefs.SetInt("MusicMuted", 1);
-                // AudioListener.volume = 1;
             }
             else
             {
                 PlayerPrefs.SetInt("MusicMuted", 0);
-                // AudioListener.volume = 0;
             }
         }
 
